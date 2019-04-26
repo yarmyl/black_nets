@@ -9,8 +9,9 @@ import sys
 import re
 
 
-bad_nets = [IPNetwork('127.0.0.0/24'), IPNetwork('10.0.0.0/8'),
-	    IPNetwork('192.168.0.0/16'), IPNetwork('172.16.0.0/12')
+bad_nets = [
+        IPNetwork('127.0.0.0/24'), IPNetwork('10.0.0.0/8'),
+        IPNetwork('192.168.0.0/16'), IPNetwork('172.16.0.0/12')
 ]
 bad_ips = ('0.0.0.0', '255.255.255.255')
 
