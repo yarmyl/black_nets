@@ -62,9 +62,9 @@ def main():
     for net in nets:
         file.write(str(net) + '\n')
     file.close()
-    os.system("git add .")
-    os.system("git commit -m \"`date`\"")
-    os.system("git push")
+#    os.system("git add .")
+#    os.system("git commit -m \"`date`\"")
+#    os.system("git push")
 
 
 if __name__ == "__main__":
